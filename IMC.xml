@@ -9721,7 +9721,6 @@
       <value id="2" name="Setup" abbrev="SETUP"/>
     </field>
      <field name="Model" abbrev="model" type="plaintext"/>
-     <field name="Model Classes" abbrev="model_classes" type="plaintext"/>
      <field name="Video Source" abbrev="video_source" type="plaintext"/>
      <field name="Sampling Frequency" abbrev="sampling_freq" type="fp32_t" min="0"/>
   </message>
