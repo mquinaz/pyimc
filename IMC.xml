@@ -9722,12 +9722,12 @@
     </field>
      <field name="Model" abbrev="model" type="plaintext"/>
      <field name="Video Source" abbrev="video_source" type="plaintext"/>
-     <field name="Sampling Frequency" abbrev="sampling_freq" type="fp32_t" min="0"/>
+     <field name="Sampling Frequency" abbrev="sampling_freq" type="fp32_t" min="0" unit="Hz"/>
   </message>
 
   <message id="705" name="Image Classification" abbrev="ImageClassification" source="ccu, vehicle">
     <description/>
-    <field name="Frame Id" abbrev="frameid" type="uint8_t"/>
+    <field name="Frame Id" abbrev="frameid" type="uint32_t"/>
     <field name="Classifications" abbrev="classifications" type="message-list" message-type="ScoredClassification"/>
     <field name="Data" abbrev="data" type="rawdata"/>
   </message>
